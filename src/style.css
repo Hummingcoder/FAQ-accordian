@@ -39,7 +39,7 @@ h1,
 p {
   font-weight: 400;
   color: hsl(292, 16%, 49%);
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -47,10 +47,10 @@ article {
   z-index: 2;
   background: hsl(0, 0%, 100%);
   width: fit-content;
-  max-width: 680px;
+  max-width: 620px;
   padding: 2em;
   border-radius: 20px;
-  box-shadow: 0px 2px 10px hsla(277, 49%, 48%, 0.095);
+  box-shadow: 0px 2px 20px hsla(277, 49%, 48%, 0.159);
 }
 .heading {
   display: flex;
@@ -67,7 +67,7 @@ article {
   align-items: center;
   gap: 1rem;
   font-weight: 600;
-  margin-bottom: 0.4em;
+  margin-bottom: 1em;
 }
 .ques:hover,
 .ques:active {
