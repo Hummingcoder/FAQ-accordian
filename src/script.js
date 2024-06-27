@@ -14,5 +14,5 @@ ques.forEach((item) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  ques[0].nextElementSibling.style.height = `85px`;
+  ques[0].nextElementSibling.style.height = `${ques[0].nextElementSibling.firstElementChild.scrollHeight}px`;
 });
